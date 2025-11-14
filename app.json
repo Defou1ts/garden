@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "garden",
-    "slug": "garden",
+    "name": "garden-fe",
+    "slug": "garden-fe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "garden",
+    "scheme": "gardenfe",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -38,7 +38,8 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true,
