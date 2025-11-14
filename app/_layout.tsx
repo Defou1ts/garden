@@ -37,7 +37,12 @@ export default function RootLayout() {
         initialRouteName="auth"
         layout={(props) => <View style={styles.container} {...props} />}
       >
+        <Stack.Screen name="auth" options={{ headerShown: false }} />
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen
+          name="modal"
+          options={{ presentation: "modal", title: "Modal" }}
+        />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
